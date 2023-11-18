@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(55.png);
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    line-height: 1; 
+
+    display: grid;
+    place-items: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #363a3f;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu li+li {
+    margin-left: 5rem;
+}
+
+.menu a {
+    display: inline-block;
+    font-size: 1.125rem;
+    line-height: 1.33333333333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.125rem 0;
+}
+
+
+.principal {
+    background: black;
+    padding: 30px;
+    top:385px;
+    position: absolute;
+    min-height: 30vh;
+    margin: 2%;
+    border-radius: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+em strong {
+	color: #f30b0b;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.Center {
+    color: rgb(255, 4, 4);
+    top: 20px;
+    
+}
+
+.beneficios {
+    padding: 30px;
+    top:675px;
+    position: absolute;
+    min-height: 55vh;
+    background-repeat: no-repeat;
+    color: rgb(247, 63, 7);
+    left: 38px;
+    
+
+}
+
+.h5 {
+    color:white;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+@media (max-width: 450px) {
+    .menu li+li {
+        margin-left: 2rem;
+    }
+}
+
+.lip {
+    position: absolute;
+    top: 65px;
+}
